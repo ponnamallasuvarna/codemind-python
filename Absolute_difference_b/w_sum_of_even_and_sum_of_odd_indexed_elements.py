@@ -1,0 +1,5 @@
+n=int(input())
+li=list(map(int,input().split()))
+p=sum(li[::2])
+q=sum(li[1::2])
+print(p-q)
