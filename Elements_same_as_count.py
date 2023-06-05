@@ -8,10 +8,9 @@ for i in li:
         d[i]+=1
 l=[]
 for i in d:
-    if i==d[i]:
+    if d[i]==i:
         l.append(i)
 if len(l)!=0:
     print(*l)
 else:
-    print("-1")
-        
+    print(-1)
